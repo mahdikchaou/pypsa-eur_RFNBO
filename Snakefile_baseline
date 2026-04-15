@@ -23,7 +23,7 @@ from scripts._helpers import (
 from scripts.lib.validation.config import validate_config
 
 
-configfile: "config/config.default.yaml"
+configfile: "config/config.baseline.yaml"
 configfile: "config/plotting.default.yaml"
 
 
