@@ -13,7 +13,7 @@ run:
     policy: false
 
 scenario:
-  clusters:
+  clusters: # Must be higher than the number of nodes.
   - 5
   opts:
   - ''
@@ -45,6 +45,7 @@ electricity:
       Onshore: onwind
       PV: solar
 
+# Options for the renewable profiles: the dataset used is era5, the longitude is x and the latitude is y
 atlite:
   default_cutout: be-03-2013-era5
   cutouts:
